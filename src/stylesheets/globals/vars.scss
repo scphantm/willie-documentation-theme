@@ -34,15 +34,13 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
-  --color-blue-solar: #19465f;
-  --color-red-solar: #dd042b;
   --color-unfocused: #ffffffc2;
   --color-focused: #fff;
-  --color-link: #104d92;
+  --color-link: var(--solar-blue);
   --color-admonition-link: #0077ff;
-  --color-link-hover: #1565c0;
-  --color-nav-item: var(--color-blue-solar);
-  --color-nav-item-hover-background: #ebf2f2;
+  --color-link-hover: var(--solar-cyan);
+  --color-nav-item: var(--solar-blue);
+  --color-nav-item-hover-background: var(--solar-base1);
   --color-admonition-note: #217de7;
   --color-admonition-note-bg: #217de72a;
   --color-admonition-note-text: #0250a9;
@@ -58,9 +56,9 @@
   --color-admonition-caution: #a0439c;
   --color-admonition-caution-bg: #a0439c2a;
   --color-admonition-caution-text: #5c1759;
-  --color-blue-bright: #0fe;
+  --color-blue-bright: var(--solar-cyan);
   --color-card-shadow: #876c6c;
-  --color-higlight: var(--color-blue-solar);
+  --color-higlight: var(--solar-blue);
   --color-higlight-link: #005889;
   --color-footer: #e6e6e6;
   --color-card-border: #ebf2f2;
@@ -70,8 +68,8 @@
   --color-pagination-border: #dadde1;
 
   // Search colors
-  --docsearch-primary-color: var(--color-blue-solar);
-  --docsearch-logo-color: var(--color-blue-solar);
+  --docsearch-primary-color: var(--solar-blue);
+  --docsearch-logo-color: var(--solar-base3);
   --docsearch-highlight-color: var(--docsearch-primary-color);
   --color-search-mark-highlight: #518bcd;
   --color-search-hit-source-highlight: var(--docsearch-highlight-color);
@@ -92,11 +90,11 @@
   --body-font-weight-bold: 550;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 700;
-  --body-background: var(--color-white);
-  --panel-background: var(--color-smoke-30);
+  --body-background: var(--solar-base3);
+  --panel-background: var(--solar-base2);
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
-  --navbar-background: var(--color-blue-solar);
+  --navbar-background: var(--solar-base3);
   --navbar-font-color: var(--color-focused);
   --navbar-unfocused-font-color: var(--color-unfocused);
   --navbar-focused-font-color: var(--color-focused);
@@ -203,23 +201,6 @@
 }
 
 html[data-theme='dark'] {
-  --solar-base03: #002b36;
-  --solar-base02: #073642;
-  --solar-base01: #586e75;
-  --solar-base00: #657b83;
-  --solar-base0: #839496;
-  --solar-base1: #93a1a1;
-  --solar-base2: #eee8d5;
-  --solar-base3: #fdf6e3;
-  --solar-yellow: #b58900;
-  --solar-orange: #cb4b16;
-  --solar-red: #dc322f;
-  --solar-magenta: #d33682;
-  --solar-violet: #6c71c4;
-  --solar-blue: #268bd2;
-  --solar-cyan: #2aa198;
-  --solar-green: #859900;
-
   --color-white: #151a25;
   --color-text-light: #556;
   --color-smoke-10: #141a28;
@@ -237,8 +218,6 @@ html[data-theme='dark'] {
   --color-jet-70: #ddd;
   --color-jet-80: #eee;
   --color-black: #fff;
-  --color-blue-solar: #2a2f43;
-  --color-red-solar: #ca4a53;
   --color-unfocused: #dcdcdcc2;
   --color-focused: #fff;
   --color-link: #00d9ff;
@@ -264,12 +243,18 @@ html[data-theme='dark'] {
   --color-card-shadow: #2e2e2e;
   --color-higlight: #9ed4ff;
   --color-higlight-link: var(--color-higlight);
-  --color-footer: var(--color-blue-solar);
+  --color-footer: var(--solar-base03);
   --color-card-border: #9ba9c6;
-  --color-code-background: #30334b;
+  --color-code-background: var(--solar-base02);
   --color-code-font: #f7962e;
-  --color-nav-item-hover-background: #262a2d;
+  --color-nav-item-hover-background: var(--solar-base01);
   --color-troubleshooting-border: #f5c80071;
+
+  --body-background: var(--solar-base03);
+
+  --panel-background: var(--solar-base02);
+  --docsearch-logo-color: var(--solar-base03);
+  --navbar-background: var(--solar-base03);
 
   //Icon filter definitions, generated from https://codepen.io/sosuke/pen/Pjoqqp
   // Dark icon set

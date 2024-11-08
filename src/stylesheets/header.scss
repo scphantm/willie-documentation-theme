@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-nonProduction {
-  background: var(--color-red-solar);
+  background: var(--solar-red);
 
   .navbar-item-nonProduction {
     align-items: center;
@@ -271,7 +271,7 @@ body {
       color: var(--navbar-unfocused-font-color);
 
       &:hover {
-        border-top: 4px solid var(--color-red-solar);
+        border-top: 4px solid var(--solar-red);
       }
 
       a:hover {
