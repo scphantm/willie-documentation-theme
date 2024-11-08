@@ -98,16 +98,16 @@ Don't forget this step!
 ====
 
 
-[NOTE.bonitacloud,caption=Bonita cloud]
-Bonita Cloud is a great platform.
+[NOTE.williecloud,caption=Willie's cloud]
+Willie's Cloud is a great platform.
 
 .Click to see the *source code*
 [%collapsible]
 ====
 [source,asciidoc]
 ----
-[NOTE.bonitacloud,caption=Bonita cloud]
-Bonita Cloud is a great platform.
+[NOTE.williecloud,caption=Willie's cloud]
+Willie's Cloud is a great platform.
 ----
 ====
 
@@ -156,7 +156,7 @@ If you installed the CLI and the default site generator globally, you can upgrad
 ========
 
 
-[NOTE.bonitacloud,caption=Bonita cloud]
+[NOTE.williecloud,caption=Willie's cloud]
 ====
 *Lorem Ipsum* is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. `And here is some code!`. xref:nothing[And a Link!].
 ====

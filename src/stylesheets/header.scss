@@ -10,8 +10,8 @@ body {
 ******* Logo *******
 ********************/
 
-.bonita-logo {
-  background: url(../img/bonitasoft-logo.svg) no-repeat 50% 45%;
+.willie-logo {
+  background: url(../img/stogies-logo.png) no-repeat 50% 45%;
   background-size: contain;
   display: block;
   height: 3.5rem;
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-nonProduction {
-  background: var(--color-red-bonita);
+  background: var(--color-red-solar);
 
   .navbar-item-nonProduction {
     align-items: center;
@@ -216,7 +216,7 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  background: var(--color-blue-bonita);
+  background: var(--color-blue-solar);
   border: 2px solid var(--color-focused);
   opacity: 0.85;
   border-radius: 5rem;
@@ -271,7 +271,7 @@ body {
       color: var(--navbar-unfocused-font-color);
 
       &:hover {
-        border-top: 4px solid var(--color-red-bonita);
+        border-top: 4px solid var(--color-red-solar);
       }
 
       a:hover {
@@ -360,7 +360,7 @@ body {
 
   a.navbar-item:hover {
     background-color: var(--navbar-unfocused-font-color);
-    color: var(--color-blue-bonita);
+    color: var(--color-blue-solar);
   }
 
   .input-container {
@@ -391,8 +391,8 @@ body {
     flex-grow: 1;
   }
 
-  .bonita-logo {
-    background: url(../img/bonitasoft-logo.svg) no-repeat 50% 45%;
+  .willie-logo {
+    background: url(../img/stogies-logo.png) no-repeat 50% 45%;
     opacity: 1;
     background-size: contain;
   }

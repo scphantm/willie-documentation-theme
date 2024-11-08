@@ -14,9 +14,9 @@ function sendClickEvent (lastQueryID, hits, suggestion) {
   }
 
   aa('clickedObjectIDsAfterSearch', {
-    userToken: 'bonitadoc',
+    userToken: 'williedoc',
     eventName: 'Search suggestion selected',
-    index: 'bonitasoft',
+    index: 'williebrain',
     queryID: lastQueryID,
     objectIDs: [objectID],
     positions: [position],

@@ -15,16 +15,16 @@ The general form of a xref is `xref:<version>@<component_name>:<module>:<page>#a
 |`xref:ROOT:resource-management.adoc`
 | a page in same component and same version
 
-|`xref:bonita::about.adoc`
+|`xref:willie::about.adoc`
 | a page in same version
 
-|`xref:2022.2@bonita:ROOT:what-is-bonita.adoc`
+|`xref:2022.2@willie:ROOT:what-is-bonita.adoc`
 | a page in same version
 
-| `xref:2023.1@bonita::release-notes.adoc`
+| `xref:2023.1@willie::release-notes.adoc`
 | a page of a given version in the ROOT module (implicit)
 
-| `xref:2023.1@bonita:version-update:update-tool-overview.adoc#prerequisites`
+| `xref:2023.1@willie:version-update:update-tool-overview.adoc#prerequisites`
 | a page of a given version in the version-update module targeting an anchor
 
 |===

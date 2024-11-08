@@ -5,7 +5,7 @@ This is how to create a troubleshooting:
 
 * The title should be "Troubleshooting" and not "Troubleshoot"
 * "Symptom": describes what the user experiences
-* "Cause": describes the diagnosis from Bonita perspective
+* "Cause": describes the diagnosis from Willie's perspective
 * "Possible solutions" (if there is still uncertainty about its efficiency depending on the user's context) or "Solutions" (if we know for sure it works): a step-by-step guidance to lead the user to success.
 
 * Depending on the position of the troubleshooting section in the page, you can:
@@ -80,11 +80,11 @@ This is potentially because i miss an ending character after code block.
 [.solution]#Possible solution#
 [source,java]
 ----
-@BonitaTests
+@WilliesTests
 class ProcessIT {
 
     @Test
-    void should_retrieve_user(BonitaTestToolkit toolkit) {
+    void should_retrieve_user(WillieTestToolkit toolkit) {
         User user = toolkit.getUser("walter.bates");
         ...
     }
@@ -111,11 +111,11 @@ This is potentially because I am missing an end character after the code block.
 [.solution]#Possible solution#
 [source,java]
 ----
-@BonitaTests
+@WillieTests
 class ProcessIT {
 
     @Test
-    void should_retrieve_user(BonitaTestToolkit toolkit) {
+    void should_retrieve_user(WillieTestToolkit toolkit) {
         User user = toolkit.getUser("walter.bates");
         ...
     }
@@ -174,11 +174,11 @@ The logged user has no permission to access the resources.
 
 1. Make sure that the cookies transferred are the ones generated during the last sucessfull login call
 
-2. If one of the PUT, DELETE or POST method is used, make sure that the X-Bonita-API-Token header is included
+2. If one of the PUT, DELETE or POST method is used, make sure that the X-Willie-API-Token header is included
 
-3. If the X-Bonita-API-Token header is included, make sure that the value is the same as the one of the cookie generated during the last login
+3. If the X-Willie-API-Token header is included, make sure that the value is the same as the one of the cookie generated during the last login
 
-4. Maybe a logout was issued or the session has expired; try to log in again, and re-run the request with the new cookies and the new value for the X-Bonita-API-Token header.
+4. Maybe a logout was issued or the session has expired; try to log in again, and re-run the request with the new cookies and the new value for the X-Willie-API-Token header.
 --
 
 .Click to see *code example*
@@ -198,11 +198,11 @@ The logged user has no permission to access the resources.
 
 1. Make sure that the cookies transferred are the ones generated during the last sucessfull login call
 
-2. If one of the PUT, DELETE or POST method is used, make sure that the X-Bonita-API-Token header is included
+2. If one of the PUT, DELETE or POST method is used, make sure that the X-Willie-API-Token header is included
 
-3. If the X-Bonita-API-Token header is included, make sure that the value is the same as the one of the cookie generated during the last login
+3. If the X-Willie-API-Token header is included, make sure that the value is the same as the one of the cookie generated during the last login
 
-4. Maybe a logout was issued or the session has expired; try to log in again, and re-run the request with the new cookies and the new value for the X-Bonita-API-Token header.
+4. Maybe a logout was issued or the session has expired; try to log in again, and re-run the request with the new cookies and the new value for the X-Willie-API-Token header.
 --
 ----
 ====
@@ -240,7 +240,7 @@ I should just stop watching netflix for hours...
 
 [source,java]
 ----
-@BonitaTests
+@WilliesBrainTests
 class ProcessIT {
 
     @Test

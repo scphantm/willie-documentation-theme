@@ -37,14 +37,14 @@ module.exports = (src, previewSrc, previewDest, sink = () => map()) => (done) =>
       return [baseUiModel, layouts]
     })
     .then(([baseUiModel, layouts]) => {
-      // CUSTOM bonita-theme
+      // CUSTOM willie-theme
       // let override the site.url defined in uid-model.yml with an environment variable
-      const siteUrl = process.env.BONITA_THEME_URL
+      const siteUrl = process.env.WILLIE_THEME_URL
       if (siteUrl) {
         console.info('Overriding site url from %s to %s', baseUiModel.site.url, siteUrl)
         baseUiModel.site.url = siteUrl
       }
-      // end of - CUSTOM bonita-theme
+      // end of - CUSTOM willie-theme
       vfs
         .src('**/*.adoc', { base: previewSrc, cwd: previewSrc })
         .pipe(
@@ -58,10 +58,10 @@ module.exports = (src, previewSrc, previewDest, sink = () => map()) => (done) =>
             if (file.stem === '404') {
               uiModel.page = { layout: '404', title: 'Page Not Found' }
             } else {
-              // CUSTOM bonita-theme
+              // CUSTOM willie-theme
               // get rid of the hard coded url, and target the actual url to make the navbar opened to the right page
-              uiModel.page.url = `/bonita/dev/${file.stem}.html`
-              // end of - CUSTOM bonita-theme
+              uiModel.page.url = `/willie/dev/${file.stem}.html`
+              // end of - CUSTOM willie-theme
               const doc = Asciidoctor.load(file.contents, { safe: 'safe', attributes: ASCIIDOC_ATTRIBUTES })
               uiModel.page.attributes = Object.entries(doc.getAttributes())
                 .filter(([name, val]) => name.startsWith('page-'))
@@ -146,7 +146,7 @@ function resolvePageURL (spec, context = {}) {
 
 function isApiComponent (value) {
   console.log('Component: ' + value)
-  return value !== 'Bonita REST API'
+  return value !== 'Willie REST API'
 }
 
 function transformHandlebarsError ({ message, stack }, layout) {

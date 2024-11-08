@@ -1,5 +1,5 @@
 = Showcase
-Bonita Documentation Theme authors
+Willies Brain Documentation Theme authors
 :idprefix:
 :idseparator: -
 :!example-caption:
@@ -9,9 +9,9 @@ Bonita Documentation Theme authors
 :page-editable: true
 
 
-.Welcome to the Bonita documentation theme preview
+.Welcome to the Willie's Brain documentation theme preview
 ****
-It demonstrates how the Bonita documentation is rendered and provides both examples and tests of the rendering. +
+It demonstrates how the brain documentation is rendered and provides both examples and tests of the rendering. +
 Check the examples to know the AsciiDoc syntax for various use cases.
 ****
 

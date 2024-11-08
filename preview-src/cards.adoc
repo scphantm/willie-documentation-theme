@@ -11,7 +11,7 @@ WARNING: If description in card body is too long (more than 3 lines), we will hi
 To do it, you need to use this following syntax:
 
 [.card-section]
-== Explore Bonita
+== Explore Willie
 
 Click on the *links* below to find useful information quickly, or xref:../taxonomy.adoc[browse the whole content tree], or use the *table of contents* to go straight to the information you want to read.
 
@@ -32,7 +32,7 @@ http://www.bonitasoft.com/how-we-do-it/downloads[[.card-title]#Bonita Studio ins
 [source,asciidoc]
 ----
 [.card-section]
-== Explore Bonita
+== Explore Willie's Brain
 
 Click on the *links* below to find useful information quickly, or xref:../taxonomy.adoc[browse the whole content tree], or use the *table of contents* to go straight to the information you want to read.
 
