@@ -153,6 +153,9 @@ page:
       - content: Troubleshooting
         url: /willie/dev/troubleshooting.html
         urlType: internal
+      - content: Diagrams
+        url: diagrams.html
+        urlType: internal
     - content: Theme tests
       items:
         - content: 404 error page

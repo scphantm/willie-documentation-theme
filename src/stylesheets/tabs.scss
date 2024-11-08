@@ -1,4 +1,12 @@
 /*! Asciidoctor Tabs | Copyright (c) 2018-present Dan Allen | MIT License */
+
+// instructions to do the cool tab thing
+// https://jsfiddle.net/csDP9/9/
+// Orignal file is here
+// https://github.com/asciidoctor/asciidoctor-tabs/blob/main/data/css/tabs.css
+
+
+
 .tabs {
   margin-bottom: 1.25em;
 }
@@ -54,13 +62,6 @@
 .tabs:not(.is-loading) .tablist li.is-selected::after {
   background-color: #ffffff;
 }
-
-/*
-.tabs:not(.is-loading) .tablist li,
-.tabs:not(.is-loading) .tablist li::after {
-  transition: background-color 200ms ease-in-out;
-}
-*/
 
 .tablist > ul p {
   line-height: inherit;
