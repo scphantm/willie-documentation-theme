@@ -17,6 +17,14 @@
   --solar-cyan: #2aa198;
   --solar-green: #859900;
 
+//<!-- Global Settings -->
+//<style name="text"                        foreground="base00" background="base3"/>
+//<style name="selection"                   foreground="base1" background="base02"/>
+//<style name="cursor"                      foreground="base00"/>
+//<style name="current-line"                background="base2"/>
+//<style name="line-numbers"                foreground="base0" background="base2"/>
+//<style name="draw-spaces"                 foreground="base1"/>
+
   --color-white: #fff;
   --color-text-light: #556;
   --color-smoke-10: #fefefe;
@@ -76,7 +84,7 @@
 
   --docsearch-hit-color: rgb(68, 73, 80);
   --docsearch-hit-active-color: #fff;
-  --docsearch-hit-background: #fff;
+  --docsearch-hit-background: var(--solar-base0);
   --docsearch-hit-shadow: 0 1px 3px 0 rgb(212, 217, 225);
 
   // End of color definition
@@ -85,7 +93,7 @@
   --body-font-size--desktop: 1.125em;
   --body-font-size--print: 0.9375em;
   --body-line-height: 1.15;
-  --body-font-color: var(--solar-base2);
+  --body-font-color: var(--solar-base0);
   --body-font-family: "Open Sans", sans-serif;
   --body-font-weight-bold: 550;
   --monospace-font-family: "Roboto Mono", monospace;
